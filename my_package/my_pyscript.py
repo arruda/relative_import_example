@@ -17,7 +17,7 @@ if __name__ == "__main__" and __package__ is None:
     mod = __import__('my_package')
     sys.modules["my_package"] = mod
     # or just import it:
-    # import fast_vagrant_django
+    # import my_package
 
     __package__='my_package'
 
